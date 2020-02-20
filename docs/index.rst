@@ -23,7 +23,7 @@ This will create an in memory sqlite database. Instead you can supply a
 filename to be used for sqlite (such as ('gtfs.sqlite'), or a sqlalchemy
 database connection.
 
-Then you can load gtfs feeds into the databas, by using append::
+Then you can load gtfs feeds into the database, by using append::
 
     pygtfs.append_feed(sched, "sample-gtfs-feed.zip")
 
